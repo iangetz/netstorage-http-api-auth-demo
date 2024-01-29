@@ -1,0 +1,13 @@
+*~
+*#
+node_modules
+
+# macOS related files
+.DS_Store
+._.DS_Store
+
+# credentials
+# Ignore everything in this directory
+server/creds/*
+# Except these files
+!server/creds/sample_netstorage.json

@@ -1,0 +1,7 @@
+{
+	"uploadId": "Upload account ID",
+	"uploadKey": "Upload account HTTP API Key",
+	"domainPrefix": "Unique storage group domain",
+	"apiDomain": "-nsu.akamaihd.net",
+	"uploadDir": "/path/with/start/and/trailing/slashes/"
+}
