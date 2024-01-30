@@ -3,7 +3,9 @@ const crypto = require('crypto');
 const https = require('https');
 
 // Adjust the action value (e.g. list, dir, stat, etc) as needed
-const acsAction = 'version=1&action=list';
+const acsAction = 'version=1&action=list&max_entries=5';
+// const acsAction = 'version=1&action=list&end=<dir>>';
+// const acsAction = 'version=1&action=list&max_entries=5&start=<dir>';
 
 // Build and sign auth headers
 let acsAuthData = '', acsAuthSign = '';
